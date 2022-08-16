@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let mang = [7,11,5,-4,3,2,0,68,77,10];
+    for (i = 0; i < mang.length; i++){
+        for (j = i + 1; j < mang.length; j++){
+            if ( mang[i]< mang[j]) {
+                let xx = mang[i];
+                mang[i] = mang[j];
+                mang[j] = xx;
+            }
+        }
+    }alert(mang)
+
+</script>
+</body>
+</html>

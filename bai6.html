@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let check = false;
+  let V = Number(prompt("Enter a number: "));
+  let array = [7,11,5,-4,3,2,0,68,77,10];
+  for (let i = 0; i < array.length; i++) {
+    if(V === array[i]){
+      check = true;
+      alert("V is in the array");
+    }
+  }
+  if (!check){
+    alert("V is not in the array");
+  }
+</script>
+</body>
+</html>
